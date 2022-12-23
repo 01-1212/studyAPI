@@ -42,4 +42,9 @@ public class HomeController {
 		return "naverLogin";
 	}
 	
+	@GetMapping("/naverMap")
+	public String naverMap() {
+		return "naverMap";
+	}
+	
 }
